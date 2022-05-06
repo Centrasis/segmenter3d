@@ -1,3 +1,4 @@
+__import__('pkg_resources').declare_namespace(__name__)
 from segm.data.loader import Loader
 
 from segm.data.imagenet import ImagenetDataset
